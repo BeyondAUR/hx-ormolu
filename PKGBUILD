@@ -25,7 +25,7 @@ build() {
 check() {
   cd "$srcdir/$_name-$pkgver"
 
-  stack test ormolu:exe:ormolu
+  stack test ormolu:test:tests
 }
 
 package() {
