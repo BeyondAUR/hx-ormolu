@@ -2,7 +2,7 @@
 
 _name=ormolu
 pkgname=hx-ormolu
-pkgver=0.7.4.0
+pkgver=0.7.5.0
 pkgrel=1
 pkgdesc="A formatter for Haskell source code"
 url="https://github.com/tweag/ormolu"
