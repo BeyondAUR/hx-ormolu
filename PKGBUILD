@@ -14,7 +14,7 @@ replaces=('ormolu' 'haskell-ormolu')
 depends=()
 makedepends=('stack')
 source=("${_name}-${pkgver}.tar.gz::https://github.com/tweag/${_name}/archive/refs/tags/${pkgver}.tar.gz")
-sha256sums=('7d30dea0adf6511a7a872fadb06cf037bc5ef118450b1618e6d1900785439444')
+sha256sums=('3fefd78d771fb228ad2d698f77644f3d0cfc1dc8cba81c3c560de151aaa052ca')
 
 _stack_resolver=nightly-2024-05-24
 
