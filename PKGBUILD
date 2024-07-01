@@ -2,7 +2,7 @@
 
 _name=ormolu
 pkgname=hx-ormolu
-pkgver=0.7.5.0
+pkgver=0.7.7.0
 pkgrel=1
 pkgdesc="A formatter for Haskell source code"
 url="https://github.com/tweag/ormolu"
@@ -14,9 +14,9 @@ replaces=('ormolu' 'haskell-ormolu')
 depends=()
 makedepends=('stack')
 source=("${_name}-${pkgver}.tar.gz::https://github.com/tweag/${_name}/archive/refs/tags/${pkgver}.tar.gz")
-sha256sums=('3fefd78d771fb228ad2d698f77644f3d0cfc1dc8cba81c3c560de151aaa052ca')
+sha256sums=('443739623df64936894a8197a1c4e275afde65870020f27f61cb51a384bdc437')
 
-_stack_resolver=nightly-2024-05-24
+_stack_resolver=nightly-2024-07-01
 
 build() {
   cd "$srcdir/$_name-$pkgver"
