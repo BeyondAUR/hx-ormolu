@@ -16,7 +16,7 @@ makedepends=('stack')
 source=("${_name}-${pkgver}.tar.gz::https://github.com/tweag/${_name}/archive/refs/tags/${pkgver}.tar.gz")
 sha256sums=('e3948bfa80984b70cf0b701b15d206c9010862ea29d44a9a3ebd417646854948')
 
-_stack_resolver=nightly-2024-07-01
+_stack_resolver=nightly-2025-01-15
 
 build() {
   cd "$srcdir/$_name-$pkgver"
